@@ -23,12 +23,6 @@ body{
    z-index: 100;
  }
 
-#reg {
-    position: relative;
-    left: 40%;
-    margin: 0 auto;
-    width: fit-content;
-}
 #reg_in {
     margin: 10% auto;
     width: 40%;
@@ -82,6 +76,12 @@ body{
 
 }
 
+#reg {
+    position: relative;
+    left: 40%;
+    margin: 0 auto;
+    width: fit-content;
+}
 #nav li.in {
    background-color: #333;
    color: white;
@@ -90,7 +90,9 @@ body{
    background-color: #333;
    color: white;
    position: relative;
-   left: 45%;
+   left: 40%;
+   margin: 0 auto;
+   width: fit-content;
  }
 #nav {
   list-style: none;
