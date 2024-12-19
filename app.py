@@ -12,8 +12,8 @@ class Post(db.Model):
     login = db.Column(db.String(30), nullable=False)
     password = db.Column(db.String(30), nullable=False)
 
-# with app.app_context(): # Используем контекст приложения
-   # db.create_all() # Создаем базу данных
+# with app.app_context():
+   # db.create_all()
 
 def is_user_registered(login):
     """Проверяет, существует ли пользователь с данным логином."""
