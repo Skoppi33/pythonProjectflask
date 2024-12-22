@@ -16,7 +16,6 @@ class Post(db.Model):
    # db.create_all()
 
 def is_user_registered(login):
-    """Проверяет, существует ли пользователь с данным логином."""
     user = Post.query.filter_by(login=login).first()
     return user is not None
 
